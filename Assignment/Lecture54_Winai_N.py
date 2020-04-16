@@ -32,11 +32,13 @@ def priceCalculate():
 #WorkFlow
 if login():
     showMenu()
-    if int(menuSelect()) == 1:
+    getMenuSelected = menuSelect()
+    if int(getMenuSelected) == 1:
         vatCalMenu()
-    elif int(menuSelect()) == 2:
+    elif int(getMenuSelected) == 2:
         priceCalculate()
+    else:
+        print("Unavailable menu")
 else:
     print("Invalid ID or Password")
-
 print("End Program")
