@@ -1,0 +1,6 @@
+name,favoriteMovie,favoritePets
+Pang Pond,Dankirk,Dog
+Ton Chief,Conjuring,Cat
+Zie,Incenption,Loma
+Bear,Doraemon The Movie,Rabbit
+Micky,Shooter,Dear
